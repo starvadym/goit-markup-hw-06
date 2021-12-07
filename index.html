@@ -502,6 +502,60 @@
             <use href="./images/icons.svg#icon-close_black"></use>
           </svg>
         </button>
+        <p>Оставьте свои данные, мы вам перезвоним</p>
+        <form class="feedback-form">
+          <label class="feedback-label">
+            Имя
+            <input
+              class="feedback-input"
+              type="text"
+              name="name"
+              placeholder=""
+            />
+          </label>
+          <label class="feedback-label">
+            Телефон
+            <input
+              class="feedback-input"
+              type="phone"
+              name="phone"
+              placeholder=""
+            />
+          </label>
+          <label class="feedback-label">
+            Почта
+            <input
+              class="feedback-input"
+              type="email"
+              name="email"
+              placeholder=""
+            />
+          </label>
+          <label class="feedback-label">
+            Комментарий
+            <textarea
+              class="feedback-input feedback-input--textarea"
+              name="comment"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <label class="feedback-label">
+            <input
+              class="feedback-accept"
+              name="accept"
+              type="checkbox"
+              required
+            />Соглашаюсь с рассылкой и принимаю
+            <a
+              class="feedback-link"
+              href=""
+              target="__blank"
+              rel="noreferrer noopener"
+              >Условия договора</a
+            ></label
+          >
+          <button class="feedback-button" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
