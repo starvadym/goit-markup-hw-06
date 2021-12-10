@@ -1111,16 +1111,21 @@ text-decoration: none;
 .feedback-label:hover .style-icon1 {
   fill: #2196F3;
 }
-.feedback-label:focus .style-icon1 {
+.feedback-link:focus .style-icon1 {
   fill: #2196F3;
-}
+  }
+
+.feedback-link:focus .feedback-input {
+  outline: transparent;
+  border: 1px solid #2196F3;
+
+  }
+
 
 .style-icon2{
   fill: #fff;
   margin-left: 10px;
 }
-
-
 
 
 .feedback-button{
