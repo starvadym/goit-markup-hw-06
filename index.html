@@ -528,9 +528,9 @@
 
         <!-- Модальная форма окно -->
 
-        <!-- Поле  Имя-->
-        <div class="common-container">
+        <form class="feedback" action="">
           <div class="feedback-container first">
+            <!-- Поле  Имя-->
             <input
               class="feedback-input"
               type="text"
@@ -546,6 +546,7 @@
               <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
           </div>
+
           <!-- Поле Телефон -->
           <div class="feedback-container">
             <input
@@ -563,6 +564,7 @@
               <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </div>
+
           <!-- Поле Почта -->
           <div class="feedback-container">
             <input
@@ -591,6 +593,7 @@
               ><span class="label-name-style">Комментарий</span></label
             >
           </div>
+          <!-- Поле чекбокса -->
           <input
             id="accept"
             class="checkbox visually-hidden"
@@ -616,9 +619,8 @@
               Условия договора
             </a>
           </label>
-
           <button class="feedback-button" type="submit">Отправить</button>
-        </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
