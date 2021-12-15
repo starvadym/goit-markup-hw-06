@@ -529,8 +529,9 @@
         <!-- Модальная форма окно -->
 
         <form class="feedback" action="">
+          <!-- Поле  Имя-->
+          <label class="feedback-label" for="name"> Имя</label>
           <div class="feedback-container first">
-            <!-- Поле  Имя-->
             <input
               class="feedback-input"
               type="text"
@@ -538,16 +539,14 @@
               placeholder=""
               id="name"
             />
-            <label class="feedback-label" for="name">
-              <span class="label-name-style">Имя</span></label
-            >
-
             <svg class="style-icon1" width="18" height="18">
               <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
             </svg>
           </div>
 
           <!-- Поле Телефон -->
+
+          <label for="tel" class="feedback-label"> Телефон</label>
           <div class="feedback-container">
             <input
               class="feedback-input"
@@ -556,16 +555,14 @@
               placeholder=""
               id="tel"
             />
-            <label for="tel" class="feedback-label">
-              <span class="label-name-style">Телефон</span></label
-            >
-
             <svg class="style-icon1" width="18" height="18">
               <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
             </svg>
           </div>
 
           <!-- Поле Почта -->
+
+          <label for="email" class="feedback-label"> Почта</label>
           <div class="feedback-container">
             <input
               class="feedback-input"
@@ -574,25 +571,19 @@
               placeholder=""
               id="email"
             />
-            <label for="email" class="feedback-label">
-              <span class="label-name-style">Почта</span></label
-            >
-
             <svg class="style-icon1" width="18" height="18">
               <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
             </svg>
           </div>
-          <div class="feedback-container last">
-            <textarea
-              id="text"
-              class="feedback-input feedback-input--textarea"
-              name="comment"
-              placeholder="Введите текст"
-            ></textarea>
-            <label for="text" class="label-last"
-              ><span class="label-name-style">Комментарий</span></label
-            >
-          </div>
+
+          <label for="text" class="feedback-label">Комментарий</label>
+          <textarea
+            id="text"
+            class="feedback-input feedback-input--textarea"
+            name="comment"
+            placeholder="Введите текст"
+          ></textarea>
+
           <!-- Поле чекбокса -->
           <input
             id="accept"
